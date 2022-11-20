@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/components/Home.module.scss'
 import Form from '../components/Form'
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main className={styles.main}>
+    <main>
       <Form />
     </main>
   </>)
