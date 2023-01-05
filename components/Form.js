@@ -1,6 +1,6 @@
 import styles from '../styles/components/Form.module.scss'
 
-export default function () {
+export default function Form() {
   return (
     <div className="container">
       <LoginForm />
